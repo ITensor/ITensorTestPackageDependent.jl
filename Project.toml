@@ -1,6 +1,6 @@
 name = "ITensorTestPackageDependent"
 uuid = "f69a9d33-c8d2-4953-8469-d5c5d6e332be"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["ITensor developers <support@itensor.org> and contributors"]
 
 [workspace]
@@ -8,9 +8,6 @@ projects = ["benchmark", "dev", "docs", "examples", "test"]
 
 [deps]
 ITensorTestPackage = "843e44b4-204a-49e5-b531-f6a528cd7bee"
-
-[sources.ITensorTestPackage]
-path = "../ITensorTestPackage"
 
 [compat]
 ITensorTestPackage = "0.1"
